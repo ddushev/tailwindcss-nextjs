@@ -12,12 +12,13 @@ export default function Home() {
         </div>
         {/* Menu Items */}
         <div className="hidden md:flex space-x-6">
-          <a href="#">Pricing</a>
-          <a href="#">Product</a>
-          <a href="#">About Us</a>
-          <a href="#">Careers</a>
-          <a href="#">Community</a>
+          <a href="#" className="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" className="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" className="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" className="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" className="hover:text-darkGrayishBlue">Community</a>
         </div>
+        <a href="" className="hidden md:block p-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a>
       </div>
     </nav>
   );
